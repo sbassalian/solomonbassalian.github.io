@@ -1,0 +1,144 @@
+/* header */
+
+
+#nav{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+
+#banner h5{
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+
+#main h5 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: solid 2px #e5e5e5;
+    padding-bottom: 20px;
+}
+
+
+#aboutc {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#aboutc img {
+    width: 300px;
+}
+
+#aboutme{
+    width: 350px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutme button {
+    margin-top: 20px;
+    border-radius: 12px;
+    background: rgb(255,216,155);
+background: linear-gradient(90deg, rgba(255,216,155,1) 0%, rgba(25,84,123,1) 100%);
+border: none;
+cursor: pointer;
+color:white;
+font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 10px;
+
+
+}
+
+#fontup {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#box{
+width: 150px;
+height: 150px;
+background-color: #f8f8f8;
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+#boxes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#row1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row5 {
+ display: flex;
+    justify-content: space-evenly;
+}
+
+.iconify {
+    height: 75px;
+    width: 75px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#c2{
+     display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+    
+}

@@ -82,3 +82,8 @@
 		}
 
 })(jQuery);
+
+// window.addEventListener("load", () => {
+//  new Sign().print(document.body);
+// });
+

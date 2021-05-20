@@ -1,6 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
+
 /*
 	Alpha by HTML5 UP
 	html5up.net | @ajlkn
@@ -2248,7 +2249,18 @@
 	}
 
 /* Box */
+#center{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+		border-bottom: solid 2px #e5e5e5;
+}
 
+#center2{
+	width: 500px;
+
+}
 	.box {
 		background: #fff;
 		border-radius: 6px;
@@ -2270,7 +2282,7 @@
 		}
 
 		.box.features .features-row {
-			border-top: solid 2px #e5e5e5;
+			/* border-top: solid 2px #e5e5e5; */
 			position: relative;
 		}
 
@@ -2931,7 +2943,8 @@
 	}
 
 	#header {
-		background: #444;
+		background: rgb(255,216,155);
+background: linear-gradient(90deg, rgba(255,216,155,1) 0%, rgba(25,84,123,1) 100%);
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -2977,6 +2990,7 @@
 
 				#header nav > ul > li {
 					display: inline-block;
+					padding-right: 20px;
 					padding-left: 0;
 				}
 
@@ -3162,15 +3176,20 @@
 
 	#banner {
 		background-attachment: scroll,							fixed;
-		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
+		background: rgb(255,216,155);
+background: linear-gradient(90deg, rgba(255,216,155,1) 0%, rgba(25,84,123,1) 100%);
+		
+		background-position: bottom left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
+		object-position: -20% 0;
+		
+
 	}
+	
 
 		#banner :last-child {
 			margin-bottom: 0;
