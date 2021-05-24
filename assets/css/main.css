@@ -3322,14 +3322,63 @@ background: linear-gradient(90deg, rgba(255,216,155,1) 0%, rgba(25,84,123,1) 100
 
 /* CTA */
 
-	#cta {
-		background: #e89980;
-		color: #f9e6df;
-		padding: 3.5em 0 4em 0;
-		text-align: center;
+	#ctaa {
+		 background: rgb(255,216,155);
+		background: linear-gradient(90deg, rgba(255,216,155,1) 0%, rgba(25,84,123,1) 100%);
+		color: white;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 50%;
+		border-radius: 12px;
+		display: flex;
+		justify-content: center;
+		margin-left: auto;
+		margin-right:auto ;
+		margin-top: 20px;
+		margin-bottom:20px;
+		
+		
 	}
 
-		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
+	#cta1 {
+		justify-content: space-evenly;
+		width: 100%;
+	}
+
+
+	#contactme {
+	font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding:10px;
+   
+
+	}
+
+	#contactmeh5{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: solid 2px #e5e5e5;
+    padding-bottom: 20px;
+    text-align: center;
+	}
+	
+	#idkidk {
+		padding-bottom: 20px;
+		width: fit-content;
+	}
+
+
+
+		/* #cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
 			color: inherit;
 		}
 
@@ -3384,7 +3433,7 @@ background: linear-gradient(90deg, rgba(255,216,155,1) 0%, rgba(25,84,123,1) 100
 
 		#cta .formerize-placeholder {
 			color: rgba(255, 255, 255, 0.75) !important;
-		}
+		} */
 
 /* Wide */
 
