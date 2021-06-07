@@ -3361,6 +3361,13 @@ background: linear-gradient(90deg, rgba(255,216,155,1) 0%, rgba(25,84,123,1) 100
 
 	}
 
+	#contactme span a:hover, a:visited, a:link, a:active a:focus{
+		text-decoration: none;
+		outline: none;
+		color: white;
+		
+	}
+
 	#contactmeh5{
     font-size: 30px;
     font-weight: 900;
