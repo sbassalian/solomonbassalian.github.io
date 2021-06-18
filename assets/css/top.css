@@ -137,7 +137,7 @@ margin-top: 20px;
 
 #c1{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
 }
 
