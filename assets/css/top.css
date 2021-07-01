@@ -222,3 +222,37 @@ margin-top: 20px;
     text-decoration: none;
 }
 
+@media screen and (max-width: 400px){
+    #banner h5 {
+        font-size: 45px
+    }
+    #aboutc{
+    flex-direction: column;
+    }
+
+    #aboutc span {
+        margin-top: 15px;
+    }
+
+    #c {
+       flex-direction: column
+    }
+
+
+    #c > * {
+        margin-top: 20px
+    }
+
+    #contactmeh5{
+        margin-top: 20px
+    }
+
+    #ctaa {
+        width: 320px
+    }
+
+    #ctaa span {
+       text-align: center;
+       
+    }
+}
